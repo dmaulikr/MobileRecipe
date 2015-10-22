@@ -1,0 +1,207 @@
+<recipe_list>
+	<cuisine name="Italian Cuisine">
+		<recipe>
+			<recipe_name>Pasta 1</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 1</description>
+			<picture>pic01.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>Pasta 2</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 2</description>
+			<picture>pic02.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+
+		<recipe>
+			<recipe_name>Pasta 3</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">8</time>
+			<serve>3</serve>
+			<description>Sample Process 3</description>
+			<picture>pic03.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Mushroom</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Simmer</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+	</cuisine>
+	<cuisine name="Indian Cuisine">
+		<recipe>
+			<recipe_name>Curry 1</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 4</description>
+			<picture>pic04.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>Curry 2</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 5</description>
+			<picture>pic05.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>Curry 3</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 6</description>
+			<picture>pic06.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+	</cuisine>
+	<cuisine name="French Cuisine">
+		<recipe>
+			<recipe_name>Crepe 1</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 7</description>
+			<picture>pic07.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>Crepe 2</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 8</description>
+			<picture>pic08.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>Crepe 3</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">10</time>
+			<serve>3</serve>
+			<description>Sample Process 9</description>
+			<picture>pic09.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>Pasta</name>
+					<quantity unit="kg">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Garlic</name>
+					<quantity unit="g">10</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>Pepper</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+	</cuisine>
+</recipe_list>

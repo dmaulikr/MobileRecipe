@@ -10,23 +10,30 @@ import UIKit
 
 class RecipeFormulaViewController: UIViewController {
 
-    var selected: String = ""
+    var recipe: Recipe?
+
+    @IBOutlet weak var ingredientText: UITextView!
     @IBOutlet weak var descriptionText: UITextView!
     @IBOutlet weak var recipeLabel: UILabel!
+    @IBOutlet weak var rateLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+
+    func setRecipe(redcipe: Recipe) {
+        self.recipe = redcipe
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        recipeLabel.text = selected
-        descriptionText.text = "Please put salt into pot"
+        recipeLabel.text = recipe!.getName()
+        descriptionText.text = recipe!.getDescription()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation
@@ -37,5 +44,4 @@ class RecipeFormulaViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

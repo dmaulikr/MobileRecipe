@@ -10,11 +10,11 @@ import UIKit
 
 class RecipeViewController: UITableViewController {
 
-    var selected: String = ""
-    var cuisine: [String]?
-    var cuisine1 = ["Recipe 1", "Recipe 2", "Recipe 3", "Recipe 4"]
-    var cuisine2 = ["Recipe 5", "Recipe 6", "Recipe 7", "Recipe 8"]
-    var cuisine3 = ["Recipe 9", "Recipe 10", "Recipe 11", "Recipe 12"]
+    var cuisine: Cuisine?
+
+    func setCuision(cuisine: Cuisine) {
+        self.cuisine = cuisine
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,15 +24,7 @@ class RecipeViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-
-        self.title = selected
-        if selected == "Italian Cuisine" {
-            cuisine = cuisine1
-        } else if selected == "Indian Cuisine" {
-            cuisine = cuisine2
-        } else if selected == "French Cuisine" {
-            cuisine = cuisine3
-        }
+        self.title = "Recipes"
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,22 +43,24 @@ class RecipeViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return cuisine!.count
+        return cuisine!.getCount()
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("recipeCell", forIndexPath: indexPath) as! RecipeCell
-        var recipe = cuisine![indexPath.row]
         // Configure the cell...
-        cell.textLabel?.text = recipe
+        let recipe = cuisine!.getElement(indexPath.row)
+        cell.textLabel?.text = recipe.getName()
         return cell
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let cell = sender as! RecipeCell
-        var destination: RecipeFormulaViewController = segue.destinationViewController as! RecipeFormulaViewController
-        destination.selected = cell.textLabel!.text!
+        let destination: RecipeFormulaViewController = segue.destinationViewController as! RecipeFormulaViewController
+        let recipe = cuisine!.getElement(cell.textLabel!.text!)
+        destination.setRecipe(recipe)
     }
+
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -111,5 +105,4 @@ class RecipeViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
