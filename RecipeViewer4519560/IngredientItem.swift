@@ -37,6 +37,11 @@ class IngredientItem: ElementInterface {
         return unit!
     }
 
+    func getAllIngredient() -> String {
+        var retString = "\(getName()) \(quantity!) (\(unit!))"
+        return retString
+    }
+
     func debug() -> String {
         let retString = "Name(\(getName())) Quantity(\(quantity!)) Unit(\(unit!))"
         return retString

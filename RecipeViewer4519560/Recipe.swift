@@ -11,6 +11,7 @@ import Foundation
 class Recipe: ElementInterface {
 
     var description: String?
+    var steps: String?
     var rating: Int? // 1 to 5
     var requiredTime: Int? // seconds
     var timeUnit: String?
@@ -67,10 +68,18 @@ class Recipe: ElementInterface {
         return pictureName!
     }
 
+    func setStep(desc: String) {
+        steps = desc
+    }
+
+    func getStep() -> String {
+        return steps!
+    }
+
     func setDescription(desc: String) {
         description = desc
     }
-
+    
     func getDescription() -> String {
         return description!
     }
@@ -91,8 +100,20 @@ class Recipe: ElementInterface {
         ingredients!.addIngredient(ingredient)
     }
 
+    func getAllIngredient() -> String {
+        return ingredients!.getAllIngredient()
+    }
+
+    func getTotalIngredientCount() -> Int {
+        return ingredients!.getTotalIngredientCount()
+    }
+
+    func getMainIngredient() -> String {
+        return ingredients!.getMainIngredient()
+    }
+
     func debug() -> String {
-        let retString: String = "\t\tRecipe Name : \(getName()) [\n\t\t\tRating : \(getDifficulty()), Time : \(getTime()) (\(getUnit())), Serve : \(getServe()), Image : \(getPicture())\n\t\t\t\(ingredients!.debug())\n\t\t\tDescription : \(getDescription())\n\t\t]\n"
+        let retString: String = "\t\tRecipe Name : \(getName()) [\n\t\t\tRating : \(getDifficulty()), Time : \(getTime()) (\(getUnit())), Serve : \(getServe()), Image : \(getPicture())\n\t\t\t\(ingredients!.debug())\n\t\t\tDescription : \(getStep())\n\t\t]\n"
 
         return retString
     }

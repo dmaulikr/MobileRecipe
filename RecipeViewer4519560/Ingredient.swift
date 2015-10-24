@@ -34,6 +34,42 @@ class IngredientList: ElementInterface {
         }
     }
 
+    func getAllIngredient() -> String {
+        var retString = "Ingredients:"
+        var count: Int = 0
+        for (typeKey, typeList) in list {
+            if typeList.count > 0 {
+                count += typeList.count
+                retString += "\n[\(typeKey)] "
+            }
+            for (key, value) in typeList {
+                retString += "\(value.getAllIngredient()), "
+            }
+        }
+        retString = "\(count) " + retString
+        return retString
+    }
+
+    func getTotalIngredientCount() -> Int {
+        var count: Int = 0
+        for (typeKey, typeList) in list {
+            count += typeList.count
+        }
+        return count
+    }
+
+    func getMainIngredient() -> String {
+        var retString: String = ""
+        for (typeKey, typeList) in list {
+            if typeKey == IngredientType.Main.rawValue {
+                for (key, value) in typeList {
+                    retString += "\(key) "
+                }
+            }
+        }
+        return retString
+    }
+
     func debug() -> String {
         var retString = "Ingredient List ["
         for (typeKey, typeList) in list {

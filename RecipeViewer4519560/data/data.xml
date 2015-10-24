@@ -1,204 +1,662 @@
+<?xml version="1.0" encoding='UTF-8'?>
 <recipe_list>
-	<cuisine name="Italian Cuisine">
+	<cuisine name="Italian">
 		<recipe>
-			<recipe_name>Pasta 1</recipe_name>
+			<recipe_name>Classic Italian Risotto</recipe_name>
 			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 1</description>
+			<time unit="min">35</time>
+			<serve>4</serve>
+			<description>This classic creamy risotto is delicious as a complete meal or add your own ingredients to create flavour variations.</description>
+			<step>Step 1: Place stock and cold water in a saucepan. Bring to the boil over high heat. Reduce heat to low. Simmer until needed. Step 2: Meanwhile, heat oil in a large, heavy-based saucepan over medium-high heat. Add brown onion. Cook, stirring, for 5 minutes or until softened. Add garlic and rice. Cook, stirring, for 1 minute. Add wine. Bring to the boil. Cook, stirring, for 3 minutes or until liquid has almost evaporated. Reduce heat to low. Add 1 ladle stock mixture to rice. Cook, stirring, until liquid has absorbed. Repeat with remaining stock mixture, 1 ladle at a time. Step 3: Stir in grated parmesan and green onion. Stand for 2 minutes. Serve with shaved parmesan.</step>
 			<picture>pic01.png</picture>
 			<ingredients>
 				<ingredient type="main">
-					<name>Pasta</name>
-					<quantity unit="kg">1</quantity>
+					<name>risotto rice</name>
+					<quantity unit="cup">1.5</quantity>
 				</ingredient>
 				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
+					<name>cold water</name>
+					<quantity unit="ea">4.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>green onion (thinly sliced)</name>
+					<quantity unit="ea">4</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>medium brown onion (finely chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>liquid chicken stock</name>
+					<quantity unit="cup">4</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>olive oil</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>garlic clove (crushed)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>dry white wine</name>
+					<quantity unit="cup">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>parmesan cheese (finely grated)</name>
+					<quantity unit="cup">0.33</quantity>
 				</ingredient>
 				<ingredient type="extra">
-					<name>Pepper</name>
+					<name>parmesan cheese (shaved)</name>
 					<quantity unit="little">little</quantity>
 				</ingredient>
 			</ingredients>
 		</recipe>
 		<recipe>
-			<recipe_name>Pasta 2</recipe_name>
+			<recipe_name>Italian Pasta Bake</recipe_name>
 			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 2</description>
+			<time unit="min">75</time>
+			<serve>4</serve>
+			<description>Be budget-wise. Make a big batch of beef mince and then use some in this tasty pasta bake. Freeze the rest for later in the month.</description>
+			<step>Step 1: Heat oil in a large saucepan over medium heat. Add onion and garlic and cook for 5 to 6 minutes or until soft. Add 2/3 mince. Cook, stirring with a wooden spoon to break up mince, for 15 minutes or until browned. Step 2: Add tomato paste, pasta sauce, basil, thyme and pepper. Bring to the boil. Reduce heat to medium-low and simmer, uncovered, for 35 to 40 minutes or until sauce thickens. Remove from heat. Remove 8 cups sauce to a bowl and set aside to cool (see note). Step 3: Preheat oven to 180 degree Celsius. Grease a 6cm deep, 18cm x 26cm (base) 8-cup capacity ovenproof roasting pan. Step 4: Cook pasta in a saucepan of boiling, salted water, following packet directions, until tender. Drain and return to saucepan. Step 5: Add remaining 1/3 meat mixture (see note) and basil to pasta. Stir until well combined. Spoon into prepared roasting pan. Sprinkle top with cheese. Bake for 35 to 40 minutes or until piping hot. Serve.</step>
 			<picture>pic02.png</picture>
 			<ingredients>
 				<ingredient type="main">
-					<name>Pasta</name>
-					<quantity unit="kg">1</quantity>
+					<name>beef (mince)</name>
+					<quantity unit="kg">1.5</quantity>
 				</ingredient>
 				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
+					<name>macaroni pasta</name>
+					<quantity unit="kg">0.375</quantity>
 				</ingredient>
-				<ingredient type="extra">
-					<name>Pepper</name>
-					<quantity unit="little">little</quantity>
+				<ingredient type="sub">
+					<name>brown onion (finely chopped)</name>
+					<quantity unit="ea">3</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>garlic cloves (crushed)</name>
+					<quantity unit="ea">3</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>tomato pasta sauce</name>
+					<quantity unit="cup">4</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>can concentrated tomato paste</name>
+					<quantity unit="kg">0.14</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>tasty cheese (shredded)</name>
+					<quantity unit="cup">1.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>olive oil</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>fresh basil leaves (roughly chopped)</name>
+					<quantity unit="cup">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>basil leaves (dried)</name>
+					<quantity unit="tablespoon">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>thyme leaves (dried)</name>
+					<quantity unit="tablespoon">0.5</quantity>
 				</ingredient>
 			</ingredients>
 		</recipe>
-
 		<recipe>
-			<recipe_name>Pasta 3</recipe_name>
+			<recipe_name>Italian Meatball and Pasta Soup</recipe_name>
 			<difficulty>2</difficulty>
-			<time unit="min">8</time>
-			<serve>3</serve>
-			<description>Sample Process 3</description>
+			<time unit="min">40</time>
+			<serve>4</serve>
+			<description>Here's a hearty meatball soup to warm up your insides and fill you up!</description>
+			<step>Step 1: Squeeze meat from sausages. Roll heaped teaspoons meat into balls. Step 2: Heat oil in a large saucepan over medium heat. Add onion and capsicum. Cook for 5 minutes or until onion has softened. Add stock powder, tomato and cold water. Bring to the boil. Add meatballs and pasta. Reduce heat to medium-low. Simmer for 10 minutes. Add broccoli. Simmer for 5 minutes or until pasta is tender and meatballs cooked through. Stir in basil. Serve with parmesan.</step>
 			<picture>pic03.png</picture>
 			<ingredients>
 				<ingredient type="main">
-					<name>Pasta</name>
-					<quantity unit="kg">1</quantity>
+					<name>Italian-style sausages (extra-lean)</name>
+					<quantity unit="kg">0.375</quantity>
 				</ingredient>
 				<ingredient type="sub">
-					<name>Mushroom</name>
-					<quantity unit="g">10</quantity>
+					<name>medium red onion (chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>medium red capsicum (chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>can chopped tomatoes with basil and garlic</name>
+					<quantity unit="kg">0.4</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>broccoli (cut into small florets)</name>
+					<quantity unit="kg">0.3</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>cold water</name>
+					<quantity unit="cup">5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>dried macaroni pasta</name>
+					<quantity unit="cup">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>olive oil</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>chicken stock powder</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>fresh basil leaves (finely chopped)</name>
+					<quantity unit="tablespoon">1</quantity>
 				</ingredient>
 				<ingredient type="extra">
-					<name>Simmer</name>
+					<name>parmesan cheese (finely grated)</name>
 					<quantity unit="little">little</quantity>
 				</ingredient>
 			</ingredients>
 		</recipe>
-	</cuisine>
-	<cuisine name="Indian Cuisine">
 		<recipe>
-			<recipe_name>Curry 1</recipe_name>
+			<recipe_name>Italian Sausage Ragu with Rag Pasta</recipe_name>
 			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 4</description>
+			<time unit="min">45</time>
+			<serve>4</serve>
+			<description>Simply take some sheets of fresh lasagne and create this sensational Italian sausage and pasta meal!</description>
+			<step>Step 1: Heat oil in a large frying pan over medium heat. Add onion. Cook, stirring occasionally, for 5 minutes or until softened. Add anchovies, if using, and garlic. Cook, stirring, for 1 minute or until fragrant. Squeeze sausages from casings. Discard casings. Add sausage mixture to pan. Cook, stirring, for 10 minutes or until browned. Add wine. Bring to the boil. Cook for 2 to 3 minutes or until reduced by half. Step 2: Add tomato to pan. Bring to the boil. Reduce heat to low. Simmer for 10 to 15 minutes or until slightly thickened. Step 3: Meanwhile, tear lasagne sheets into long strips. Cook pasta in a saucepan of boiling, salted water, for 3 to 4 minutes or until tender. Drain. Return to pan. Step 4: Add sauce to pasta. Season with salt and pepper. Toss to combine. Serve topped with parmesan and basil.</step>
 			<picture>pic04.png</picture>
 			<ingredients>
 				<ingredient type="main">
-					<name>Pasta</name>
-					<quantity unit="kg">1</quantity>
+					<name>Italian pork and fennel sausages</name>
+					<quantity unit="kg">0.6</quantity>
 				</ingredient>
 				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
+					<name>packet fresh lasagne sheets</name>
+					<quantity unit="kg">0.375</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>cans diced tomatoes</name>
+					<quantity unit="kg">0.8</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>large brown onion (finely chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>garlic cloves, crushed</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>anchovies in oil (drained and chopped)</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>olive oil</name>
+					<quantity unit="tablespoon">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>dry white wine</name>
+					<quantity unit="cup">0.5</quantity>
 				</ingredient>
 				<ingredient type="extra">
-					<name>Pepper</name>
+					<name>parmesan cheese (shaved)</name>
 					<quantity unit="little">little</quantity>
 				</ingredient>
-			</ingredients>
-		</recipe>
-		<recipe>
-			<recipe_name>Curry 2</recipe_name>
-			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 5</description>
-			<picture>pic05.png</picture>
-			<ingredients>
-				<ingredient type="main">
-					<name>Pasta</name>
-					<quantity unit="kg">1</quantity>
-				</ingredient>
-				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
-				</ingredient>
 				<ingredient type="extra">
-					<name>Pepper</name>
-					<quantity unit="little">little</quantity>
-				</ingredient>
-			</ingredients>
-		</recipe>
-		<recipe>
-			<recipe_name>Curry 3</recipe_name>
-			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 6</description>
-			<picture>pic06.png</picture>
-			<ingredients>
-				<ingredient type="main">
-					<name>Pasta</name>
-					<quantity unit="kg">1</quantity>
-				</ingredient>
-				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
-				</ingredient>
-				<ingredient type="extra">
-					<name>Pepper</name>
+					<name>fresh basil leaves</name>
 					<quantity unit="little">little</quantity>
 				</ingredient>
 			</ingredients>
 		</recipe>
 	</cuisine>
-	<cuisine name="French Cuisine">
+	<cuisine name="Indian">
 		<recipe>
-			<recipe_name>Crepe 1</recipe_name>
+			<recipe_name>Indian Omelette</recipe_name>
 			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 7</description>
+			<time unit="min">80</time>
+			<serve>4</serve>
+			<description>This omelette is full of healthy vegetables and Indian spices for a twist on a classic breakfast dish.</description>
+			<step>Step 1: Bring a small saucepan of salted water to the boil over medium-high heat. Add potato and pumpkin. Cook, uncovered, for 8 to 10 minutes or until just tender (see note). Drain. Step 2: Heat 4 tablespoons oil in a 19cm (base) non-stick frying pan over medium heat. Add capsicum, onion, chilli and garlic. Cook, stirring occasionally, for 6 to 8 minutes or until onion is tender. Add curry powder and cook, stirring, for 5 minutes. Add potato and pumpkin. Cook for 5 minutes or until heated through. Season with salt. Transfer to a bowl and cover to keep warm. Wipe pan clean. Step 3: Whisk eggs in a large bowl. Heat 2 teaspoons oil in frying pan over high heat until hot. Reduce heat to medium-low. Pour in half the egg, tilting pan so egg covers base. Cook for 3 to 4 minutes or until egg almost set and underside golden. Place half the potato mixture over half the omelette. Fold omelette over filling. Cook for 1 to 2 minutes or until egg set. Slide omelette onto plate. Repeat with remaining oil, egg and potato mixture. Serve.</step>
+			<picture>pic05.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>egg</name>
+					<quantity unit="ea">4</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>coliban potato (peeled, cut into 1cm cubes)</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>small brown onion</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>red capsicum (thinly sliced)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>green chilli (deseeded, finely chopped)</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>garlic clove (crushed)</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>butternut pumpkin (peeled, cut into 1cm cubes)</name>
+					<quantity unit="kg">0.16</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>vegetable oil</name>
+					<quantity unit="cup">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>mild Indian curry powder</name>
+					<quantity unit="teaspoon">2</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>Indian Platter</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">85</time>
+			<serve>6</serve>
+			<description>Entertaining is a breeze with this sensational yet simple platter. Just prepare, arrange, then sit back and relax as guests help themselves!</description>
+			<step>Step 1: Preheat oven to 200 degree Celsius. Combine lamb and tandoori paste in a ceramic bowl. Cover and refrigerate for 30 minutes, if time permits. Step 2: Meanwhile, place naan on a large baking tray. Brush with eggwhite. Sprinkle with half the onion. Bake for 15 minutes or until crisp. Tear into pieces. Step 3: Heat oil in a non-stick frying pan over medium-high heat. Cook lamb for 4 minutes each side for medium or until cooked to your liking. Remove to a plate. Cover loosely with foil. Set aside for 10 minutes. Thinly slice. Step 4: Meanwhile, combine chutney, yoghurt, 1 tablespoon lemon juice and 1 tablespoon coriander in a bowl. Combine tomatoes, cucumber, remaining lemon juice, remaining coriander and remaining onion in a separate bowl. Step 5: Arrange lamb, naan, chutney mixture and tomato mixture on a large platter. Serve.</step>
+			<picture>pic06.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>lamb backstraps</name>
+					<quantity unit="kg">0.8</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>plain mini naan breads</name>
+					<quantity unit="kg">1.04</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>plain Greek-style yoghurt</name>
+					<quantity unit="kg">0.2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>tomatoes (deseeded, finely chopped)</name>
+					<quantity unit="ea">3</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Lebanese cucumber (deseeded, finely chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>eggwhite (lightly beaten)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>red onion (finely chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>mango chutney (hot)</name>
+					<quantity unit="cup">0.33</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>fresh coriander leaves (chopped)</name>
+					<quantity unit="cup">0.33</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>tandoori paste</name>
+					<quantity unit="cup">0.25</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>lemon juice</name>
+					<quantity unit="tablespoon">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>vegetable oil</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>Indian Rissoles</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">20</time>
+			<serve>4</serve>
+			<description>These were flavoursome but very dry. Need to serve with a nice greek yoghurt or something.</description>
+			<step>Step 1: Combine mince, curry paste, mustard seeds, beans, cumin, salt and pepper in a large bowl. Using clean hands, shape mixture into eight 2cm-thick rissoles. Place on a plate. Step 2: Cook rissoles, in a large frying pan sprayed with oil, over medium-high heat, for 3 to 4 minutes each side or until cooked through. Step 3: Serve with naan and chutney.</step>
 			<picture>pic07.png</picture>
 			<ingredients>
 				<ingredient type="main">
-					<name>Pasta</name>
-					<quantity unit="kg">1</quantity>
+					<name>beef (mince)</name>
+					<quantity unit="kg">0.4</quantity>
 				</ingredient>
 				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
+					<name>green beans (trimmed, thinly sliced)</name>
+					<quantity unit="kg">0.1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>mild curry paste</name>
+					<quantity unit="tablespoon">1.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>brown mustard seeds</name>
+					<quantity unit="teaspoon">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>ground cumin</name>
+					<quantity unit="teaspoon">2</quantity>
 				</ingredient>
 				<ingredient type="extra">
-					<name>Pepper</name>
+					<name>naan bread</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>mango chutney</name>
 					<quantity unit="little">little</quantity>
 				</ingredient>
 			</ingredients>
 		</recipe>
 		<recipe>
-			<recipe_name>Crepe 2</recipe_name>
+			<recipe_name>Indian Fish Curry</recipe_name>
 			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 8</description>
+			<time unit="min">25</time>
+			<serve>4</serve>
+			<description>This delicious Indian fish curry is a quick and easy meal to make for the whole family.</description>
+			<step>Step 1: Cook rice following packet directions. Step 2: Meanwhile, heat the oil in large frying pan over medium-high heat. Add the onion and cook for 1-2 mins or until soft. Add fish, simmer sauce and water. Cook for 5 mins or until fish is opaque. Add tomatoes and peas. Cook for 2 mins or until soft. Step 3: Top curry with almonds and coriander and serve with rice and naan bread.</step>
 			<picture>pic08.png</picture>
 			<ingredients>
 				<ingredient type="main">
-					<name>Pasta</name>
+					<name>white fish fillets (cut into 3cm pieces)</name>
 					<quantity unit="kg">1</quantity>
 				</ingredient>
 				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
+					<name>jar Patak's Korma Simmer sauce</name>
+					<quantity unit="kg">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Perino tomatoes</name>
+					<quantity unit="kg">0.2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>brown onion (sliced)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Basmati rice</name>
+					<quantity unit="cup">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Mission garlic and herb naan breads</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>cup frozen peas</name>
+					<quantity unit="cup">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>flaked almonds (toasted)</name>
+					<quantity unit="cup">0.25</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>coriander leaves</name>
+					<quantity unit="cup">0.25</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>water</name>
+					<quantity unit="cup">0.25</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>vegetable oil</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+	</cuisine>
+	<cuisine name="French">
+		<recipe>
+			<recipe_name>Strawberry French Toast</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">25</time>
+			<serve>4</serve>
+			<description>For an extra special Sunday brekkie try this sensational strawberry French toast.</description>
+			<step>Step 1: Combine strawberries, 2 tablespoons icing sugar, vinegar and water in a medium bowl. Stand for 5 mins. Place strawberry mixture in a small saucepan over low heat. Cook, stirring occasionally, for 5 mins or until strawberries soften and a sauce forms. Set aside. Step 2: Meanwhile, whisk eggs, milk, cinnamon and remaining icing sugar in a medium bowl. Melt half of the butter in large frying pan on medium heat. Dip 4 bread slices into egg mixture for 10 seconds. Transfer to pan and cook for 1 min each side or until golden. Transfer to serving plates. Wipe pan clean. Repeat with remaining butter and bread. Step 3: Combine extra icing sugar and cinnamon in a bowl. Serve French toast topped with strawberry compote and fresh strawberries, dusted with the cinnamon sugar.</step>
+			<picture>pic09.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>loaf Pane di casa (cut into 8 slices)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>egg</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>punnet strawberry (hulled, halved)</name>
+					<quantity unit="kg">0.25</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>icing sugar mixture</name>
+					<quantity unit="kg">0.04</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>milk</name>
+					<quantity unit="cup">0.33</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>butter (chopped)</name>
+					<quantity unit="kg">0.04</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>icing sugar mixture (extra)</name>
+					<quantity unit="tablespoon">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>water</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>white vinegar</name>
+					<quantity unit="teaspoon">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>ground cinnamon</name>
+					<quantity unit="teaspoon">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>ground cinnamon (extra)</name>
+					<quantity unit="teaspoon">0.25</quantity>
 				</ingredient>
 				<ingredient type="extra">
-					<name>Pepper</name>
+					<name>Strawberry (halved)</name>
 					<quantity unit="little">little</quantity>
 				</ingredient>
 			</ingredients>
 		</recipe>
 		<recipe>
-			<recipe_name>Crepe 3</recipe_name>
-			<difficulty>2</difficulty>
-			<time unit="min">10</time>
-			<serve>3</serve>
-			<description>Sample Process 9</description>
-			<picture>pic09.png</picture>
+			<recipe_name>French Onion Soup</recipe_name>
+			<difficulty>3</difficulty>
+			<time unit="min">65</time>
+			<serve>4</serve>
+			<description>A regular on bistro menus, this hearty soup gets extra flavour from fresh thyme sprigs.</description>
+			<step>Step 1: Heat the oil and butter in a large saucepan over medium heat. Add the onion and cook, stirring, for 10 minutes or until the onion softens. Add the sugar and cook, stirring occasionally, for 8-10 minutes or until the onion is golden. Step 2: Add the flour to the pan and cook, stirring, for 1-2 minutes. Remove from heat. Gradually add the stock and wine, stirring until combined. Step 3: Place the onion mixture over medium heat. Add the thyme and cook, stirring constantly, for 5 minutes or until the mixture thickens. Cover and simmer, stirring occasionally, for a further 5 minutes. Season with pepper. Step 4: Meanwhile, preheat grill on medium. Place bread on a baking tray. Cook under grill for 1-2 minutes or until toasted. Turn and sprinkle with the gruyere. Cook under grill for a further 1-2 minutes or until the gruyere melts. Step 5: Ladle soup among serving bowls. Top with croutons and extra thyme to serve.</step>
+			<picture>pic10.png</picture>
 			<ingredients>
 				<ingredient type="main">
-					<name>Pasta</name>
+					<name>brown onions (halved, thinly sliced)</name>
 					<quantity unit="kg">1</quantity>
 				</ingredient>
 				<ingredient type="sub">
-					<name>Garlic</name>
-					<quantity unit="g">10</quantity>
+					<name>Petit Pain Bake-at-Home crusty bread rolls (cut into 1cm-thick slices)</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>liquid beef stock (salt reduced)</name>
+					<quantity unit="cup">3</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>white wine</name>
+					<quantity unit="cup">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>butter</name>
+					<quantity unit="kg">0.06</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>coarsely grated gruyere or Swiss cheese</name>
+					<quantity unit="kg">0.04</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>sprigs fresh thyme</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>plain flour</name>
+					<quantity unit="tablespoon">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>olive oil</name>
+					<quantity unit="tablespoon">1</quantity>
 				</ingredient>
 				<ingredient type="extra">
-					<name>Pepper</name>
+					<name>Fresh thyme sprigs</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>brown sugar</name>
+					<quantity unit="teaspoon">1</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>French Lamb Shanks</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">200</time>
+			<serve>8</serve>
+			<description>French lamb shanks are a favourite winter warming meal.</description>
+			<step>Step 1: Preheat oven to 180/160 degree Celsius fan-forced. Heat 2 teaspoons oil in a large heavy-based, flameproof casserole dish over medium-high heat. Add pancetta, onion, garlic and carrot. Cook, stirring occasionally, for 5 to 6 minutes or until onion has softened. Transfer to a bowl. Set aside. Step 2: Place flour in a bowl. Season with salt and pepper. Add shanks. Toss to coat. Shake off excess. Heat remaining oil in pan over high heat. Cook shanks, in batches, turning, for 4 to 5 minutes or until browned. Transfer to a plate. Step 3: Return pancetta mixture to pan. Add wine. Bring to the boil. Boil for 2 to 3 minutes. Add passata, stock and bay leaves. Bring to the boil. Return shanks to pan. Cover. Transfer to oven. Step 4: Bake for 2 hours to 2 hours 30 minutes or until shanks are tender. Remove and discard bay leaves. Serve shanks with mashed potato and steamed green beans.</step>
+			<picture>pic11.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>French-trimmed lamb shanks</name>
+					<quantity unit="kg">16</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>medium brown onions (finely chopped)</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>garlic cloves (crushed)</name>
+					<quantity unit="ea">6</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>medium carrots (chopped)</name>
+					<quantity unit="ea">3</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>pancetta (chopped)</name>
+					<quantity unit="kg">0.1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>tomato passata sauce</name>
+					<quantity unit="cup">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>red wine</name>
+					<quantity unit="cup">1.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>liquid beef stock</name>
+					<quantity unit="cup">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>plain flour</name>
+					<quantity unit="cup">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>dried bay leaves</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>olive oil</name>
+					<quantity unit="tablespoon">2.5</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>mashed potato and steamed green beans</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+			</ingredients>
+		</recipe>
+		<recipe>
+			<recipe_name>French-Braised Chicken and Lentils</recipe_name>
+			<difficulty>2</difficulty>
+			<time unit="min">85</time>
+			<serve>4</serve>
+			<description>Cook this tasty chicken on Sunday, ready to quickly reheat on Monday or Tuesday for an easy midweek meal.</description>
+			<step>Step 1: Heat the oil in a large, shallow heavy based casserole dish over medium heat. Cook the speck, stirring, for 4 minutes or until golden. Use a slotted spoon to transfer to a plate lined with paper towel. Drain off all but 1 tablespoon fat, reserving remaining fat. Step 2: Add onion, carrot and shallot to dish. Cook, stirring, for 5 minutes or until soft. Stir in the garlic for 2 minutes or until aromatic. Transfer the vegies to a bowl. Step 3: Heat 3 teaspoons reserved fat over medium heat. Season chicken skin. Cook half the chicken, skin-side down, for 4 minutes or until dark golden. Turn and cook for 2 minutes. Transfer to a plate lined with paper towel to drain. Repeat with remaining chicken. Pour off and discard remaining fat in pan. Step 4: Return pan to medium heat. Add the wine. Simmer, scraping the pan with a spoon, for 2 minutes or until reduced slightly. Stir in the speck, vegetables, lentils, water, bouquet garni and 1 tablespoon mustard. Cover. Reduce heat to low. Cook, stirring occasionally, for 10 minutes. Return chicken to pan. Simmer, covered, stirring occasionally, for 25-30 minutes or until chicken is cooked through. Simmer, uncovered, for 5 minutes or until sauce thickens slightly. Step 5: Remove from heat. Cool for 5 minutes. Stir in the creme fraiche and remaining mustard. Season with pepper. Sprinkle with the parsley and serve with the beans.</step>
+			<picture>pic12.png</picture>
+			<ingredients>
+				<ingredient type="main">
+					<name>chicken thigh cutlets (skin on)</name>
+					<quantity unit="kg">1.2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>small brown onion (finely chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>carrot (peeled, finely chopped)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>French shallots (peeled, halved)</name>
+					<quantity unit="ea">4</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>garlic cloves (crushed)</name>
+					<quantity unit="ea">2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>piece speck (rind removed, chopped)</name>
+					<quantity unit="kg">0.2</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>fresh bouquet garni (parsley, bay and thyme)</name>
+					<quantity unit="ea">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>dry riesling</name>
+					<quantity unit="cup">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>water</name>
+					<quantity unit="cup">1</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>French green lentils</name>
+					<quantity unit="cup">0.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>creme fraiche</name>
+					<quantity unit="cup">0.25</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>Dijon mustard</name>
+					<quantity unit="tablespoon">1.5</quantity>
+				</ingredient>
+				<ingredient type="sub">
+					<name>extra virgin olive oil</name>
+					<quantity unit="tablespoon">1</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>fresh continental parsley (chopped)</name>
+					<quantity unit="little">little</quantity>
+				</ingredient>
+				<ingredient type="extra">
+					<name>green beans (steamed)</name>
 					<quantity unit="little">little</quantity>
 				</ingredient>
 			</ingredients>

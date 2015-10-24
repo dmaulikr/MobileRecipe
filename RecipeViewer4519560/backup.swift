@@ -14,10 +14,9 @@ class RecipeFormulaViewController: UIViewController {
 
     //@IBOutlet weak var ingredientText: UITextView!
     @IBOutlet weak var stepText: UITextView!
-    //@IBOutlet weak var recipeLabel: UILabel!
+    @IBOutlet weak var recipeLabel: UILabel!
     @IBOutlet weak var rateLabel: UILabel!
     @IBOutlet weak var serveLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
 
     func setRecipe(redcipe: Recipe) {
@@ -28,14 +27,13 @@ class RecipeFormulaViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.title = recipe!.getName()
+        recipeLabel.text = recipe!.getName()
         rateLabel.text = "Difficulty: \(recipe!.getDifficulty())"
         serveLabel.text = "Serve: \(recipe!.getServe())"
         var temp = recipe!.getStep().stringByReplacingOccurrencesOfString(". Step", withString: ".\n\nStep")
-        //print("\(recipe!.getStep())\n")
-        stepText.text = "Description:\n" + recipe!.getDescription() + "\n\n" + recipe!.getAllIngredient() + "\n\n" + temp
-        timeLabel.text = "Time: \(recipe!.getTime()) (\(recipe!.getUnit()))"
-        //print("\(temp)\n")
+        print("\(temp)")
+        //ingredientText.text = recipe!.getAllIngredient()
+        stepText.text = recipe!.getAllIngredient() + "\n\n" + temp
         
         imageView.image = UIImage(named: recipe!.getPicture())
     }

@@ -10,6 +10,9 @@ import UIKit
 
 class RecipeCell: UITableViewCell {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var clickButton: CustomButton!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

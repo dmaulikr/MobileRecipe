@@ -20,7 +20,7 @@ class CuisineViewController: UIViewController, NSXMLParserDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         readData()
-        print("End of Parsing\n")
+        //print("End of Parsing\n")
         //print("\(CuisineFactory.instance.debug())")
     }
 
@@ -59,6 +59,7 @@ class CuisineViewController: UIViewController, NSXMLParserDelegate {
         case DifficultyTag = "difficulty"
         case TimeTag = "time"
         case ServeTag = "serve"
+        case StepTag = "step"
         case DescriptionTag = "description"
         case PictureTag = "picture"
         case IngredientListTag = "ingredients"
@@ -87,6 +88,8 @@ class CuisineViewController: UIViewController, NSXMLParserDelegate {
             currRecipe!.setUnit(unit)
             break;
         case TagName.ServeTag.rawValue:
+            break;
+        case TagName.StepTag.rawValue:
             break;
         case TagName.DescriptionTag.rawValue:
             break;
@@ -131,6 +134,9 @@ class CuisineViewController: UIViewController, NSXMLParserDelegate {
             break;
         case TagName.ServeTag.rawValue:
             currRecipe!.setServe(content)
+            break;
+        case TagName.StepTag.rawValue:
+            currRecipe!.setStep(content)
             break;
         case TagName.DescriptionTag.rawValue:
             currRecipe!.setDescription(content)
